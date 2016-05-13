@@ -2,6 +2,8 @@
 
 <p><strong>toy_problems</strong> is a compilation of toy problems around functional programming, recursion, and tricky algorithms.  It is designed to be a playground to practice solving such prompts and testing your solutions.</p>
 
+<p><strong>Made for students, by students.</strong></p>
+
 <h2>How to start practicing</h2>
 <p>Prompts are contained in the <code>toy_problems/src</code> folder. The prompts are divided into the following categories:
   <ul>
