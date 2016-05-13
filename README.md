@@ -23,7 +23,7 @@
   <ul>
     <li>Cormen, Leiserson, Rivest, Stein. <i>Introduction to Algorithms, Third Edition. </i> Cambridge: The MIT Press, 2009. </li>
     <li>McMillan.  <i>Data Structures & Algorithms with Javascript. </i>O'Reilly, 2014.</li>
-    <li>Groner. <i>Learning JavaScript Data Structures & Algorithms</i> Packt, 2014. </li>
+    <li>Groner. <i>Learning JavaScript Data Structures & Algorithms</i> Packt, 2014. Solutions available online <a href="https://github.com/loiane/javascript-datastructures-algorithms">here</a> </li> 
   </ul>
   <strong>Interviewing & Beyond: </strong>
   <ul>
