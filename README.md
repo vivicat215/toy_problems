@@ -11,6 +11,6 @@
   </ul>  
 </p>
 
-<h2>Running the tests</h2>
+<h2>Testing your answers</h2>
 
-<p>Launch <code>SpecRunner.html</code> in your browser to check answers.  The test runner used is Jasmine.</p>
+<p>Launch <code>SpecRunner.html</code> in your browser to check answers.  The test runner used is Jasmine.  Also, <code>index.html</code> is provided as an easier avenue to debug code using Chrome Dev Tools.</p>
