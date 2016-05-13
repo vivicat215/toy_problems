@@ -146,3 +146,54 @@ var obj2 = [
 function objectSome(collection, source) {
  /// YOUR CODE HERE
 }
+
+
+///--------------------------------------------------------
+///--------------------------------------------------------
+/// LARGEST NUMS (Difficulty: 2/5)
+///--------------------------------------------------------
+///--------------------------------------------------------
+
+/// Tags: Higher-order functions, arrays
+
+/// Return an array containing the largest number in each nested
+/// array of numbers.  If array contains nothing, return null.
+/// Use map and reduce to implement.
+
+// largestNums([[4, 5, 1, 3, 10, 100], [13, 27, 18, 26], [32, 35, 37, 50, 39], [1000, 1001]]);
+// => [ 100, 27, 50, 1001 ]
+
+// largestNums([[], [2, 3, 1], [0]]);
+// => [ null, 3, 0 ]
+
+
+function largestNums(arr) {
+/// YOUR CODE HERE
+}
+
+///--------------------------------------------------------
+///--------------------------------------------------------
+/// DESTROYER (Difficulty: 2/5)
+///--------------------------------------------------------
+///--------------------------------------------------------
+
+/// Tags: Higher-order functions, arrays
+
+/// Function destroyer will take an initial array
+/// (the first argument in the destroyer function), followed by
+/// one or more arguments.  It will remove all elements from the
+/// initial array that are of the same value as these arguments.
+/// Use filter or reduce
+
+// destroyer([1, 2, 3, 1, 2, 3], 3, 2);
+// => [1, 1]
+// destroyer([5, 0, 5, 1, 2, 10, 6, 6, 3, 5], 5, 6, 10);
+// => [ 0, 1, 2, 3 ]
+// destroyer([1, 2, 3], 5, 6, 10);
+// => [ 1, 2, 3 ]
+// destroyer([1, 2, 3]);
+// => [ 1, 2, 3 ]
+
+function destroyer(arr) {
+/// YOUR CODE HERE
+}
