@@ -1,43 +1,6 @@
 ///--------------------------------------------------------
-/// PRINT ODDS (Difficulty: 2/5) 
 ///--------------------------------------------------------
-
-/// Tags: Higher-order functions, objects
-
-/// Write a function printOdds that takes an object and 
-/// returns an array with the odd values found in the
-/// object.
-
-// var x = {a: 6, b: 33, c: 12, d: 3};
-// printOdds(x) => [33, 3]
-
-function printOdds(x) {
-/// YOUR CODE HERE
-}
-///--------------------------------------------------------
-///--------------------------------------------------------
-/// LARGEST BOX ART (Difficulty: 2/5) 
-///--------------------------------------------------------
-///--------------------------------------------------------
-
-/// Tags: Higher-order functions, objects, arrays
-
-/// Return an array containing only the URL of the largest box art. 
-
-var boxarts = [
-    { width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
-    { width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
-    { width: 300, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture300.jpg" },
-    { width: 425, height:150, url:"http://cdn-0.nflximg.com/images/2891/Fracture425.jpg" }
-];
-
-function largest(arr) {
-/// YOUR CODE HERE
-}
-
-///--------------------------------------------------------
-///--------------------------------------------------------
-/// ARRAY OF OBJECTS (Difficulty: 1/5) 
+/// ARRAY OF OBJECTS (Difficulty: 1/5)
 ///--------------------------------------------------------
 ///--------------------------------------------------------
 
@@ -56,7 +19,7 @@ var people = [
 
 
 ///--------------------------------------------------------
-/// Return the average age of all of the people in the array people. 
+/// Return the average age of all of the people in the array people.
 ///--------------------------------------------------------
 
 function averageAge(people) {
@@ -64,7 +27,7 @@ function averageAge(people) {
 }
 
 ///--------------------------------------------------------
-/// Return the sum of the age of all men in the array people. 
+/// Return the sum of the age of all men in the array people.
 ///--------------------------------------------------------
 
 function sumOfMen(people) {
@@ -72,7 +35,7 @@ function sumOfMen(people) {
 }
 
 ///--------------------------------------------------------
-/// Return an array with all people over 35. 
+/// Return an array with all people over 35.
 ///--------------------------------------------------------
 
 function over35(people) {
@@ -80,7 +43,7 @@ function over35(people) {
 }
 
 ///--------------------------------------------------------
-/// Return an array with all people that have a last name 
+/// Return an array with all people that have a last name
 /// starting with a defined letter.
 ///--------------------------------------------------------
 
@@ -89,7 +52,7 @@ function lastName(people, letter) {
 }
 
 ///--------------------------------------------------------
-/// Return an array with all females that have a last name 
+/// Return an array with all females that have a last name
 /// longer than n letters
 ///--------------------------------------------------------
 
@@ -98,7 +61,7 @@ function femaleNameLength(people, n) {
 }
 
 ///--------------------------------------------------------
-/// Return an object with just the name age pairs of the 
+/// Return an object with just the name age pairs of the
 /// females under the age n.
 ///--------------------------------------------------------
 
@@ -107,4 +70,79 @@ function femaleUnder37(people, n) {
 }
 
 
+///--------------------------------------------------------
+/// PRINT ODDS (Difficulty: 2/5)
+///--------------------------------------------------------
 
+/// Tags: Higher-order functions, objects
+
+/// Write a function printOdds that takes an object and
+/// returns an array with the odd values found in the
+/// object.
+
+// var x = {a: 6, b: 33, c: 12, d: 3};
+// printOdds(x) => [33, 3]
+
+function printOdds(x) {
+/// YOUR CODE HERE
+}
+
+///--------------------------------------------------------
+///--------------------------------------------------------
+/// LARGEST BOX ART (Difficulty: 2/5)
+///--------------------------------------------------------
+///--------------------------------------------------------
+
+/// Tags: Higher-order functions, objects, arrays
+
+/// Return an array containing only the URL of the largest box art.
+
+var boxarts = [
+    { width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
+    { width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
+    { width: 300, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture300.jpg" },
+    { width: 425, height:150, url:"http://cdn-0.nflximg.com/images/2891/Fracture425.jpg" }
+];
+
+function largest(arr) {
+/// YOUR CODE HERE
+}
+
+///--------------------------------------------------------
+///--------------------------------------------------------
+/// OBJECT SOME (Difficulty: 2/5)
+///--------------------------------------------------------
+///--------------------------------------------------------
+
+
+/// Tags: Higher-order functions, objects
+
+/// Write a function objectSome() that looks through an array of
+/// objects (first argument collection) and returns an array of all objects
+/// that have matching property and value pairs (second argument).
+/// Each property and value pair of the source object has to be present in the
+/// object from the collection if it is to be included in the returned array.
+/// Try using filter
+
+var obj1 = [
+  { "a": 1, "b": 2 },
+  { "a": 1 },
+  { "a": 1, "b": 2, "c": 2 }
+];
+
+var obj2 = [
+  { first: "Romeo", last: "Montague" },
+  { first: "Mercutio", last: null },
+  { first: "Tybalt", last: "Capulet" }
+];
+
+// objectSome(obj1, { "a": 1, "c": 2 });
+// -> [{ "a": 1, "b": 2, "c": 2 }]
+
+// objectSome(obj2, { last: "Capulet" });
+// -> [{ first: "Tybalt", last: "Capulet" }]
+
+
+function objectSome(collection, source) {
+ /// YOUR CODE HERE
+}
