@@ -5,9 +5,9 @@
 <h2>How to start practicing</h2>
 <p>Prompts are contained in the <code>toy_problems/src</code> folder. The promps are divided into the following categories:
   <ul>
-    <li>Higher order functions: prompts to be solved using higher order function methods, such as reduce, map, filter</li>
-    <li>Recursion: prompts to be solved using recursion</li>
-    <li>Miscellaneous: miscellaneous prompts of various algorithms</li>
+    <li><strong>Higher order functions</strong>: prompts to be solved using higher order function methods, such as reduce, map, filter</li>
+    <li><strong>Recursion</strong>: prompts to be solved using recursion</li>
+    <li><strong>Miscellaneous</strong>: miscellaneous prompts of various algorithms</li>
   </ul>  
 </p>
 
