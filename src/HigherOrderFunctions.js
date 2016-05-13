@@ -197,3 +197,45 @@ function largestNums(arr) {
 function destroyer(arr) {
 /// YOUR CODE HERE
 }
+
+
+///--------------------------------------------------------
+///--------------------------------------------------------
+/// EUCLIDEAN VALUE (Difficulty: 2/5)
+///--------------------------------------------------------
+///--------------------------------------------------------
+
+/// Tags: Higher-order functions, callbacks, arrays
+
+/// Write a function merge that takes two arrays of equal length and returns a single array that merges the values as a result of a callback.
+
+function merge(arr1, arr2, callback) {
+  /// YOUR CODE HERE
+}
+
+/// Write the callback function add
+function add(a, b) {
+  /// YOUR CODE HERE
+}
+
+/// x = merge([1, 5, 3, 12], [4, 7, 13, 3], add) 
+/// x === [5, 12, 16, 15]
+
+
+/// Write a function using merge and reduce to find the euclidean distance between two points in a two-dimensional space.
+/// Equation for calculating hypotenuse:  sqrt ( legLength1^2 + legLength2^2 )
+
+function euclid(point1, point2) {
+  /// YOUR CODE HERE
+}
+
+/// y = euclid([3, 5], [7, 2]);
+/// y === 5
+
+
+
+
+
+
+
+
