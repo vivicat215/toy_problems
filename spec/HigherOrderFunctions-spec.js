@@ -34,6 +34,55 @@ describe("FUN WITH HIGHER ORDER FUNCTIONS!", function() {
     });
   });
 
+  describe("PRINT ODDS", function() {
+    var x = {a: 6, b: 33, c: 12, d: 3};
+    var y = {a: 1, b: 0, c: 1, d: 0};
+    var z = {a: 2, b: 4, c: 6, d: 8};
+
+    it("should return an array", function() {
+      expect(Array.isArray(printOdds(x))).toEqual(true);
+    });
+
+    it("should return an array of odd numbers", function() {
+      expect(printOdds(x)).toEqual([33, 3]);
+      expect(printOdds(y)).toEqual([1, 1]);
+    });
+
+    it("should return an empty array if no odd numbers found", function() {
+      expect(printOdds(z)).toEqual([]);
+      expect(printOdds({})).toEqual([]);
+    });
+  });
+
+  describe("LARGEST BOX ART", function() {
+    var boxarts = [
+        { width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
+        { width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
+        { width: 300, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture300.jpg" },
+        { width: 425, height:150, url:"http://cdn-0.nflximg.com/images/2891/Fracture425.jpg" }
+    ];
+
+    var boxarts2 = [
+        { width: 200, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture200.jpg" },
+        { width: 150, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture150.jpg" },
+        { width: 300, height:200, url:"http://cdn-0.nflximg.com/images/2891/Fracture300.jpg" },
+        { width: 425, height:150, url:"http://cdn-0.nflximg.com/images/2891/Fracture425.jpg" },
+        { width: 150, height:425, url:"http://cdn-0.nflximg.com/images/2891/Fracture420.jpg" }
+    ];
+
+    it("should return an array", function() {
+      expect(largest(boxarts)).toEqual(true);
+    });
+
+    it("should return url of largest box art", function() {
+      expect(largest(boxarts)).toEqual(["http://cdn-0.nflximg.com/images/2891/Fracture425.jpg"]);
+    });
+
+    it("should return all url's of largest boxarts", function() {
+      expect(largest(boxarts)).toEqual(["http://cdn-0.nflximg.com/images/2891/Fracture425.jpg", "http://cdn-0.nflximg.com/images/2891/Fracture420.jpg"]);
+    });
+  });
+
   describe("OBJECT SOME", function() {
     var obj1 = [
       { "a": 1, "b": 2 },
