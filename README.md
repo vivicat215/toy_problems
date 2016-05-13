@@ -13,4 +13,4 @@
 
 <h2>Running the tests</h2>
 
-<p>Launch SpecRunner.html in your browser to check answers.  The test runner used is Jasmine.</p>
+<p>Launch <code>SpecRunner.html</code> in your browser to check answers.  The test runner used is Jasmine.</p>
