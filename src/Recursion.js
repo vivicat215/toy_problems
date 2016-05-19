@@ -64,3 +64,28 @@ var sortedArray = [39, 41, 42, 43, 44, 45, 50, 52, 53, 63, 74, 77, 78, 83, 93];
 
 // sorted(sortedArray, 10);
 // => -1
+
+
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+////// CHESS BOARD
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
+// Write a program that creates a string which represents
+// a grid, given a row/column size.  There are alternating 
+// spaces and "#" characters at each position of the grid 
+// to form a chess board. If size isn't provided, assume a 
+// standard chess board (8x8). Invalid entries return -1.
+
+var chessBoard = function(size) {
+/// YOUR CODE HERE
+
+};
+
+
+var board = chessBoard(8);
+// board === ' # # # #\n# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n'
+// console.log(board) 
+// => (see below)
+
