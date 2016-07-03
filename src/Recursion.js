@@ -86,6 +86,30 @@ var chessBoard = function(size) {
 
 var board = chessBoard(8);
 // board === ' # # # #\n# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n'
-// console.log(board) 
-// => (see below)
 
+
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+////// SEARCH MATRIX
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
+// Given a 2-d array with n rows and m columns, both in 
+// ascending order, and target number, write a function that 
+// locates the number in the array without using any for loops.  
+// Assume no repeated numbers.  The function should return the 
+// location in the following format: [n, m]
+
+var searchMatrix = function(matrix, target) {
+/// YOUR CODE HERE
+
+};
+
+
+var matrix = [[1, 5, 7, 16],
+              [2, 7, 10, 20],
+              [4, 12,14, 24],
+              [6, 13,19, 30]]
+              
+// var result = searchMatrix(matrix, 13);
+// console.log(result) ==> [3, 1]
