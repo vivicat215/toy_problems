@@ -76,5 +76,4 @@ Stack.prototype = (function(){
 
 var balancedParens = function(parenString) {
 /// YOUR CODE HERE
-
 };
